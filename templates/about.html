@@ -3,13 +3,25 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
 </head>
 <body>
+
+<div class="container">
  <h1>Aaliyah Reid</h1>
+
+ <div class="content">
+    <img src="{{ url_for('static', filename='aaliyahjlr.jpg') }}" alt="A photo of Aaliyah Reid">
+
  <p>Hello! I'm currently in my second year of studying Computer Science, with a keen focus on mobile and web development.
      Additionally, I'm a visual artist who primarily works with acrylic paint on canvas.
       My artistic journey has led me to explore both portrait and landscape painting, 
       though I have a special preference for portrait painting due to its challenging nature and the deep sense of fulfillment it brings.
        Outside of my academic and artistic pursuits, I enjoy diving into thriller novels and playing the guitar.</p>
+
+
+ </div>
+</div>
+ 
 </body>
 </html> 
